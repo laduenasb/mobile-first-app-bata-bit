@@ -114,7 +114,7 @@ main {
     width: 100%;
     height: auto;
     padding-top: 59px;
-    padding-bottom: 30px;
+    padding-bottom: 64px;
     text-align: center;
 }
 
@@ -152,11 +152,19 @@ main {
     color: #757575;
 }
 
+.main-tables-container {
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .main-currency-table, .main-commission-table {
+    scroll-snap-align: center;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    height: 360px;
+    height: 264px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
 }
