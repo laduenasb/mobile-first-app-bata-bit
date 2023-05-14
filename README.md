@@ -1,4 +1,4 @@
-# Mobile First App Bata Bit
+ # Mobile First App Bata Bit :bulb:
 This is a mobile application project designed for the sale of Bata Bit cryptocurrencies, using a mobile-first design approach.
 
 The application was developed using only HTML and CSS. The application is fully functional and offers an intuitive and pleasant user experience.
